@@ -1,0 +1,138 @@
+{
+  "uid" : "3f97db85809ffb7b",
+  "name" : "验证新建员工成功",
+  "fullName" : "test_staff.TestAddSearch#test_add_staff[staff_info0-test_login0]",
+  "historyId" : "98caf027b61608d430c528159a48fd07",
+  "time" : {
+    "start" : 1558231061440,
+    "stop" : 1558231062443,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open_browser",
+    "time" : {
+      "start" : 1558231061432,
+      "stop" : 1558231061432,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "test_login",
+    "time" : {
+      "start" : 1558231061438,
+      "stop" : 1558231061439,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e935f889665029e8",
+      "name" : "log",
+      "source" : "e935f889665029e8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "54595ac043ed0d67",
+      "name" : "stdout",
+      "source" : "54595ac043ed0d67.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4b23faa591146e92",
+      "name" : "stderr",
+      "source" : "4b23faa591146e92.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试人员新增查询模块"
+  }, {
+    "name" : "story",
+    "value" : "测试新建员工信息用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_staff"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddSearch"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "14544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "staff_info",
+    "value" : "{'name': 'stella', 'sex': 'female', 'age': 20}"
+  }, {
+    "name" : "test_login",
+    "value" : "{'user': 'a1', 'pwd': '123456'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dae060fa67938052",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557803809163,
+        "stop" : 1557803810169,
+        "duration" : 1006
+      }
+    }, {
+      "uid" : "b708976e11e8629a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557803633656,
+        "stop" : 1557803634662,
+        "duration" : 1006
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f97db85809ffb7b.json",
+  "parameterValues" : [ "{'name': 'stella', 'sex': 'female', 'age': 20}", "{'user': 'a1', 'pwd': '123456'}" ]
+}

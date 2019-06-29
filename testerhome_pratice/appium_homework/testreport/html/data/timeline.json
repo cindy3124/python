@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "1deMacBook-Air.local",
+    "children" : [ {
+      "name" : "16919-MainThread",
+      "children" : [ {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "5cf88445ab68bdaa",
+        "parentUid" : "3286a762b2b0a82ee1aa0f376aa28d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453416178,
+          "stop" : 1558453435183,
+          "duration" : 19005
+        },
+        "flaky" : true,
+        "parameters" : [ "'222'", "'111'" ]
+      }, {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "404ed51dafcd568b",
+        "parentUid" : "3286a762b2b0a82ee1aa0f376aa28d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453437732,
+          "stop" : 1558453454028,
+          "duration" : 16296
+        },
+        "flaky" : true,
+        "parameters" : [ "'333'", "'222'" ]
+      }, {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "b9d589b81932e7ae",
+        "parentUid" : "3286a762b2b0a82ee1aa0f376aa28d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453456436,
+          "stop" : 1558453474180,
+          "duration" : 17744
+        },
+        "flaky" : true,
+        "parameters" : [ "'444'", "'333'" ]
+      } ],
+      "uid" : "3286a762b2b0a82ee1aa0f376aa28d20"
+    } ],
+    "uid" : "d79fabbc2af1349b535876b57ba25b04"
+  } ]
+}

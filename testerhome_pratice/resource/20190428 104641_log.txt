@@ -1,0 +1,3 @@
+[2019-04-28 10:46:41,622][INFO]:Start print log
+[2019-04-28 10:46:41,622][WARNING]:Something maybe fail
+[2019-04-28 10:46:41,622][INFO]:Finish

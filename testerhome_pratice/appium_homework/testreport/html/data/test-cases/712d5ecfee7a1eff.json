@@ -1,0 +1,225 @@
+{
+  "uid" : "712d5ecfee7a1eff",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "fullName" : "test_xueqiu_webview.TestWebview#test_login[222-333]",
+  "historyId" : "373b11e422c49ddee10f6d2510e6681b",
+  "time" : {
+    "start" : 1558365492805,
+    "stop" : 1558365520361,
+    "duration" : 27556
+  },
+  "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+  "descriptionHtml" : "<p>测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_xueqiu_webview.TestWebview object at 0x103943828>, usr = '222'\npwd = '333'\n\n    @allure.story('测试蛋卷基金密码登录功能')\n    @allure.title('此用例测试蛋卷基金密码登录功能')\n    @allure.description('测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图')\n    @pytest.mark.parametrize('usr, pwd', [('111', '222'), ('222', '333'), ('333', '444')])\n    def test_login(self, usr, pwd):\n        try:\n            # 选择密码登录\n            with allure.step('选择密码登录'):\n                self.driver.find_element_by_accessibility_id('使用密码登录').click()\n            # 输入手机号和密码\n            with allure.step('输入手机号和密码'):\n                self.driver.find_element_by_id('telno').send_keys(usr)\n                self.driver.find_element_by_id('pass').send_keys(pwd)\n            # 点击安全登录\n            with allure.step('点击安全登录'):\n                self.driver.find_element_by_accessibility_id('安全登录').click()\n            # 获取错误信息，并校验\n            allure.step('获取错误信息，并校验')\n            msg = self.driver.find_element_by_id('message').get_attribute('name')\n>           assert '你输入的手机号码或者密码有误' in msg\nE           AssertionError: assert '你输入的手机号码或者密码有误' in '错误超过5次限制，请使用短信验证码登录'\n\ntest_xueqiu_webview.py:74: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_xueqiu_webview.TestWebview object at 0x103943828>, usr = '222'\npwd = '333'\n\n    @allure.story('测试蛋卷基金密码登录功能')\n    @allure.title('此用例测试蛋卷基金密码登录功能')\n    @allure.description('测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图')\n    @pytest.mark.parametrize('usr, pwd', [('111', '222'), ('222', '333'), ('333', '444')])\n    def test_login(self, usr, pwd):\n        try:\n            # 选择密码登录\n            with allure.step('选择密码登录'):\n                self.driver.find_element_by_accessibility_id('使用密码登录').click()\n            # 输入手机号和密码\n            with allure.step('输入手机号和密码'):\n                self.driver.find_element_by_id('telno').send_keys(usr)\n                self.driver.find_element_by_id('pass').send_keys(pwd)\n            # 点击安全登录\n            with allure.step('点击安全登录'):\n                self.driver.find_element_by_accessibility_id('安全登录').click()\n            # 获取错误信息，并校验\n            allure.step('获取错误信息，并校验')\n            msg = self.driver.find_element_by_id('message').get_attribute('name')\n            assert '你输入的手机号码或者密码有误' in msg\n        except Exception as e:\n            # 报错则截图\n            with allure.step('报错截图'):\n                save_path = os.getcwd() + \"/\" + usr + \"_error_tmp.png\"\n                self.driver.get_screenshot_as_file(save_path)\n                f = open(save_path, 'rb').read()\n                allure.attach(f, 'error_screenshot', attachment_type=AttachmentType.PNG)\n>               assert False\nE               assert False\n\ntest_xueqiu_webview.py:82: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1558365433456,
+      "stop" : 1558365463150,
+      "duration" : 29694
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1558365492156,
+      "stop" : 1558365492802,
+      "duration" : 646
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_xueqiu_webview.TestWebview object at 0x103943828>, usr = '222'\npwd = '333'\n\n    @allure.story('测试蛋卷基金密码登录功能')\n    @allure.title('此用例测试蛋卷基金密码登录功能')\n    @allure.description('测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图')\n    @pytest.mark.parametrize('usr, pwd', [('111', '222'), ('222', '333'), ('333', '444')])\n    def test_login(self, usr, pwd):\n        try:\n            # 选择密码登录\n            with allure.step('选择密码登录'):\n                self.driver.find_element_by_accessibility_id('使用密码登录').click()\n            # 输入手机号和密码\n            with allure.step('输入手机号和密码'):\n                self.driver.find_element_by_id('telno').send_keys(usr)\n                self.driver.find_element_by_id('pass').send_keys(pwd)\n            # 点击安全登录\n            with allure.step('点击安全登录'):\n                self.driver.find_element_by_accessibility_id('安全登录').click()\n            # 获取错误信息，并校验\n            allure.step('获取错误信息，并校验')\n            msg = self.driver.find_element_by_id('message').get_attribute('name')\n>           assert '你输入的手机号码或者密码有误' in msg\nE           AssertionError: assert '你输入的手机号码或者密码有误' in '错误超过5次限制，请使用短信验证码登录'\n\ntest_xueqiu_webview.py:74: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_xueqiu_webview.TestWebview object at 0x103943828>, usr = '222'\npwd = '333'\n\n    @allure.story('测试蛋卷基金密码登录功能')\n    @allure.title('此用例测试蛋卷基金密码登录功能')\n    @allure.description('测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图')\n    @pytest.mark.parametrize('usr, pwd', [('111', '222'), ('222', '333'), ('333', '444')])\n    def test_login(self, usr, pwd):\n        try:\n            # 选择密码登录\n            with allure.step('选择密码登录'):\n                self.driver.find_element_by_accessibility_id('使用密码登录').click()\n            # 输入手机号和密码\n            with allure.step('输入手机号和密码'):\n                self.driver.find_element_by_id('telno').send_keys(usr)\n                self.driver.find_element_by_id('pass').send_keys(pwd)\n            # 点击安全登录\n            with allure.step('点击安全登录'):\n                self.driver.find_element_by_accessibility_id('安全登录').click()\n            # 获取错误信息，并校验\n            allure.step('获取错误信息，并校验')\n            msg = self.driver.find_element_by_id('message').get_attribute('name')\n            assert '你输入的手机号码或者密码有误' in msg\n        except Exception as e:\n            # 报错则截图\n            with allure.step('报错截图'):\n                save_path = os.getcwd() + \"/\" + usr + \"_error_tmp.png\"\n                self.driver.get_screenshot_as_file(save_path)\n                f = open(save_path, 'rb').read()\n                allure.attach(f, 'error_screenshot', attachment_type=AttachmentType.PNG)\n>               assert False\nE               assert False\n\ntest_xueqiu_webview.py:82: AssertionError",
+    "steps" : [ {
+      "name" : "选择密码登录",
+      "time" : {
+        "start" : 1558365492806,
+        "stop" : 1558365494999,
+        "duration" : 2193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入手机号和密码",
+      "time" : {
+        "start" : 1558365494999,
+        "stop" : 1558365507944,
+        "duration" : 12945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击安全登录",
+      "time" : {
+        "start" : 1558365507944,
+        "stop" : 1558365508794,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "报错截图",
+      "time" : {
+        "start" : 1558365509642,
+        "stop" : 1558365520360,
+        "duration" : 10718
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"/scipt/python/testerhome_pratice/appium_homework/test_xueqiu_webview.py\", line 82, in test_login\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fe2a22c1da3f4e2",
+        "name" : "error_screenshot",
+        "source" : "2fe2a22c1da3f4e2.png",
+        "type" : "image/png",
+        "size" : 98682
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3fc2024d2775a2f5",
+      "name" : "log",
+      "source" : "3fc2024d2775a2f5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f710390b5513b823",
+      "name" : "stdout",
+      "source" : "f710390b5513b823.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f443f0fad30cc016",
+      "name" : "stderr",
+      "source" : "f443f0fad30cc016.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1558365547345,
+      "stop" : 1558365552055,
+      "duration" : 4710
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1558365520379,
+      "stop" : 1558365522493,
+      "duration" : 2114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试蛋卷基金登陆功能"
+  }, {
+    "name" : "story",
+    "value" : "测试蛋卷基金密码登录功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebview"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16337-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pwd",
+    "value" : "'333'"
+  }, {
+    "name" : "usr",
+    "value" : "'222'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "712d5ecfee7a1eff.json",
+  "parameterValues" : [ "'333'", "'222'" ]
+}

@@ -1,0 +1,10 @@
+
+goto_quotes:
+  - locator: //*[@text='行情']
+    by: xpath
+    action: click
+
+gotoProfile:
+  - by: id
+    locator: user_profile_icon
+    action: click

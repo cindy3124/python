@@ -1,0 +1,198 @@
+{
+  "uid" : "8e507fd761e1b098",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "fullName" : "test_xueqiu_webview.TestWebview#test_login[333-444]",
+  "historyId" : "148e6d663e19eb574824580b1f57aa0a",
+  "time" : {
+    "start" : 1558452867790,
+    "stop" : 1558452885297,
+    "duration" : 17507
+  },
+  "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+  "descriptionHtml" : "<p>测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1558452795413,
+      "stop" : 1558452823356,
+      "duration" : 27943
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1558452867261,
+      "stop" : 1558452867788,
+      "duration" : 527
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择密码登录",
+      "time" : {
+        "start" : 1558452867791,
+        "stop" : 1558452869930,
+        "duration" : 2139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入手机号和密码",
+      "time" : {
+        "start" : 1558452869930,
+        "stop" : 1558452883740,
+        "duration" : 13810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击安全登录",
+      "time" : {
+        "start" : 1558452883740,
+        "stop" : 1558452884590,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f0f584a657e47f7b",
+      "name" : "log",
+      "source" : "f0f584a657e47f7b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d9a520ded35c1c78",
+      "name" : "stdout",
+      "source" : "d9a520ded35c1c78.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3b806debf23fbff0",
+      "name" : "stderr",
+      "source" : "3b806debf23fbff0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1558452886883,
+      "stop" : 1558452890879,
+      "duration" : 3996
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1558452885300,
+      "stop" : 1558452886877,
+      "duration" : 1577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试蛋卷基金登陆功能"
+  }, {
+    "name" : "story",
+    "value" : "测试蛋卷基金密码登录功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebview"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16659-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pwd",
+    "value" : "'444'"
+  }, {
+    "name" : "usr",
+    "value" : "'333'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e507fd761e1b098.json",
+  "parameterValues" : [ "'444'", "'333'" ]
+}

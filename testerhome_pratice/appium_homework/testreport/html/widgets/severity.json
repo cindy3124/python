@@ -1,0 +1,31 @@
+[ {
+  "uid" : "404ed51dafcd568b",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "time" : {
+    "start" : 1558453437732,
+    "stop" : 1558453454028,
+    "duration" : 16296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9d589b81932e7ae",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "time" : {
+    "start" : 1558453456436,
+    "stop" : 1558453474180,
+    "duration" : 17744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cf88445ab68bdaa",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "time" : {
+    "start" : 1558453416178,
+    "stop" : 1558453435183,
+    "duration" : 19005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,40 @@
+
+loginByPasswd:
+  - locator: tv_login_by_phone_or_others
+    by: id
+    action: click
+  - locator: tv_login_with_account
+    by: id
+    action: click
+  - element: login_account
+    action: sendkeys
+    text: $var1
+  - element: login_password
+    action: sendkeys
+    text: $var2
+  - locator: button_next
+    by: id
+    action: click
+
+back:
+  - by: xpath
+    locator: //*[contains(@resource-id, 'iv_close') or contains(@resource-id, 'iv_action_back')]
+    action: click
+
+getErrorMsg:
+  - xxx
+
+elements:
+  login_account:
+    android:
+      by: id
+      locator: login_account
+    ios:
+      by: xpath
+      locator: sssssss
+  login_password:
+    android:
+      by: id
+      locator: login_password
+
+

@@ -1,0 +1,91 @@
+[ {
+  "uid" : "c685af9760236c35",
+  "name" : "test_login_case[test_login2]",
+  "time" : {
+    "start" : 1558231061428,
+    "stop" : 1558231061428,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c982616c04fdf2df",
+  "name" : "验证删除员工信息并产生截图",
+  "time" : {
+    "start" : 1558231064481,
+    "stop" : 1558231065181,
+    "duration" : 700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f42334b68738996",
+  "name" : "test_login_case[test_login1]",
+  "time" : {
+    "start" : 1558231061413,
+    "stop" : 1558231061413,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b950fed5989d0fb9",
+  "name" : "test_login_case[test_login0]",
+  "time" : {
+    "start" : 1558231061343,
+    "stop" : 1558231061343,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7a3f26bd61db531",
+  "name" : "验证查询员工信息正确",
+  "time" : {
+    "start" : 1558231061432,
+    "stop" : 1558231061433,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ab0166e72b3846f",
+  "name" : "验证新建员工成功",
+  "time" : {
+    "start" : 1558231062458,
+    "stop" : 1558231063459,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f97db85809ffb7b",
+  "name" : "验证新建员工成功",
+  "time" : {
+    "start" : 1558231061440,
+    "stop" : 1558231062443,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a22702f25f9dc6a",
+  "name" : "验证修改员工成功",
+  "time" : {
+    "start" : 1558231064478,
+    "stop" : 1558231064478,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96b5a290e855c150",
+  "name" : "验证新建员工成功",
+  "time" : {
+    "start" : 1558231063467,
+    "stop" : 1558231064472,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

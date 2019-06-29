@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest_demo",
+    "children" : [ {
+      "name" : "test_allure",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_2474608",
+          "uid" : "54c1c9242348a30c",
+          "parentUid" : "8fae26e6b3f617d10d7beae7e3b705be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1556956747450,
+            "stop" : 1556956751455,
+            "duration" : 4005
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8fae26e6b3f617d10d7beae7e3b705be"
+      } ],
+      "uid" : "5b095d3c4939c3641b265064704aff94"
+    } ],
+    "uid" : "982e81ef545cfdd3a4eef03af961420a"
+  }, {
+    "name" : "pytest_practice",
+    "children" : [ {
+      "name" : "test_bubble",
+      "children" : [ {
+        "name" : "test_bubble[list10-y0]",
+        "uid" : "8b738562a812c76d",
+        "parentUid" : "0a59378f6985959eb0db2f6aa84477de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1556957952663,
+          "stop" : 1556957952720,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "parameters" : [ "[3, 1, 7, 4, 0, 8, 6]", "[0, 1, 3, 4, 6, 7, 8]" ]
+      }, {
+        "name" : "test_bubble[list11-y1]",
+        "uid" : "71ec58b58cb2655",
+        "parentUid" : "0a59378f6985959eb0db2f6aa84477de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556957952726,
+          "stop" : 1556957952726,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "[9, 7, 5, 3, 1, 5]", "[1, 3, 5, 5, 7, 9]" ]
+      } ],
+      "uid" : "0a59378f6985959eb0db2f6aa84477de"
+    } ],
+    "uid" : "5f748820e759de08ce15803187472dd7"
+  } ]
+}

@@ -1,0 +1,11 @@
+[
+  "test_staff.py::TestLogin::test_login_case[test_login0]",
+  "test_staff.py::TestLogin::test_login_case[test_login1]",
+  "test_staff.py::TestLogin::test_login_case[test_login2]",
+  "test_staff.py::TestAddSearch::test_search_staff[test_login0]",
+  "test_staff.py::TestAddSearch::test_add_staff[staff_info0-test_login0]",
+  "test_staff.py::TestAddSearch::test_add_staff[staff_info1-test_login0]",
+  "test_staff.py::TestAddSearch::test_add_staff[staff_info2-test_login0]",
+  "test_staff.py::TestModiDel::test_modify_staff",
+  "test_staff.py::TestModiDel::test_delete_staff"
+]

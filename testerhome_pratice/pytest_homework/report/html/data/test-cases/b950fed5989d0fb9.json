@@ -1,0 +1,144 @@
+{
+  "uid" : "b950fed5989d0fb9",
+  "name" : "test_login_case[test_login0]",
+  "fullName" : "test_staff.TestLogin#test_login_case[test_login0]",
+  "historyId" : "db8a82da74804b638812b8b7c1994796",
+  "time" : {
+    "start" : 1558231061343,
+    "stop" : 1558231061343,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "request = <SubRequest 'test_login' for <Function test_login_case[test_login0]>>\n\n    @pytest.fixture()\n    @pytest.mark.run(order=2)\n    def test_login(request):\n        user = request.param['user']\n        pwd = request.param['pwd']\n        print('登录中...')\n        if user == 'a1' and pwd == '123456':\n            print('登录页面成功...')\n            assert True\n            return '登录页面成功...'\n        else:\n            print('用户名或密码错误，请重新检查...')\n>           assert False\nE           assert False\n\nconftest.py:23: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "open_browser",
+    "time" : {
+      "start" : 1558231061346,
+      "stop" : 1558231061347,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "test_login",
+    "time" : {
+      "start" : 1558231061347,
+      "stop" : 1558231061347,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/fixtures.py\", line 937, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/fixtures.py\", line 794, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/scipt/python/testerhome_pratice/pytest_homework/conftest.py\", line 23, in test_login\n    assert False\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "request = <SubRequest 'test_login' for <Function test_login_case[test_login0]>>\n\n    @pytest.fixture()\n    @pytest.mark.run(order=2)\n    def test_login(request):\n        user = request.param['user']\n        pwd = request.param['pwd']\n        print('登录中...')\n        if user == 'a1' and pwd == '123456':\n            print('登录页面成功...')\n            assert True\n            return '登录页面成功...'\n        else:\n            print('用户名或密码错误，请重新检查...')\n>           assert False\nE           assert False\n\nconftest.py:23: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e03c03c2c8fcfa2",
+      "name" : "log",
+      "source" : "5e03c03c2c8fcfa2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "fc9b925f3deb135a",
+      "name" : "stdout",
+      "source" : "fc9b925f3deb135a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a08e3384bda1748e",
+      "name" : "stderr",
+      "source" : "a08e3384bda1748e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_staff"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "14544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_login",
+    "value" : "{'user': 'a1', 'pwd': 'abc'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "819a54592617670a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1557803809090,
+        "stop" : 1557803809090,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9fd49e38f4a7e222",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1557803633582,
+        "stop" : 1557803633582,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b950fed5989d0fb9.json",
+  "parameterValues" : [ "{'user': 'a1', 'pwd': 'abc'}" ]
+}

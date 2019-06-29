@@ -1,0 +1,11 @@
+[
+  "test_basicfunc.py::TestCacul::test_cacu_normal_1__30__30_", 
+  "test_basicfunc.py::TestCacul::test_cacu_normal_2__10__10_", 
+  "test_basicfunc.py::TestCacul::test_cacu_normal_3__200__200_", 
+  "test_basicfunc.py::TestCacul::test_cacu_normal_4__2__2_", 
+  "test_basicfunc.py::TestCacul::test_cacu_unnormal", 
+  "test_basicfunc.py::TestConvert::test_convert_normal_1___ABCDE____ABCDE__", 
+  "test_basicfunc.py::TestConvert::test_convert_normal_2___xyz____xyz__", 
+  "test_basicfunc.py::TestConvert::test_convert_normal_3___type_xe5_x8f_xaa_xe5_x85_x81_xe8_xae_xb8_xe4_xb8_xbaupper_xe6_x88_x96lower____type_xe5_x8f_xaa_xe5_x85_x81_xe8_xae_xb8_xe4_xb8_xbaupper_xe6_x88_x96lower__", 
+  "test_basicfunc.py::TestRandom::test_name_in"
+]

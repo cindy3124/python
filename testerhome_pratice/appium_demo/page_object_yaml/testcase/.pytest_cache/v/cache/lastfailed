@@ -1,0 +1,9 @@
+{
+  "test_login.py": true,
+  "test_login.py::TestLogin::test_login_password": true,
+  "test_selected.py": true,
+  "test_selected.py::TestSelected::test_is_selected_stock_hs[\\u5e73\\u5b89\\u94f6\\u884c-SZ00001]": true,
+  "test_selected.py::TestSelected::test_is_selected_stock_hs[\\u62db\\u5546\\u94f6\\u884c-SH60036]": true,
+  "test_selected.py::TestSelected::test_is_selected_stock_hs[pingan-SH601318]": true,
+  "test_selected.py::TestSelected::test_price": true
+}

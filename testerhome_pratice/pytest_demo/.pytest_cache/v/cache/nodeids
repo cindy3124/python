@@ -1,0 +1,11 @@
+[
+  "test_assume.py::test1", 
+  "test_demo1.py::test_add1", 
+  "test_ordering.py::test_compare1", 
+  "test_ordering.py::test_compare2", 
+  "test_parameters.py::test_add1[2-3-5]", 
+  "test_parameters.py::test_add1[112-3-5]", 
+  "test_parameters.py::test_add2[13]", 
+  "test_parameters.py::test_add2[15]", 
+  "test_rerunfails.py::test_compare"
+]

@@ -1,0 +1,305 @@
+{
+  "uid" : "b9d589b81932e7ae",
+  "name" : "此用例测试蛋卷基金密码登录功能",
+  "fullName" : "test_xueqiu_webview.TestWebview#test_login[333-444]",
+  "historyId" : "148e6d663e19eb574824580b1f57aa0a",
+  "time" : {
+    "start" : 1558453456436,
+    "stop" : 1558453474180,
+    "duration" : 17744
+  },
+  "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+  "descriptionHtml" : "<p>测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1558453376933,
+      "stop" : 1558453407284,
+      "duration" : 30351
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1558453455589,
+      "stop" : 1558453456435,
+      "duration" : 846
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择密码登录",
+      "time" : {
+        "start" : 1558453456436,
+        "stop" : 1558453458781,
+        "duration" : 2345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入手机号和密码",
+      "time" : {
+        "start" : 1558453458781,
+        "stop" : 1558453472530,
+        "duration" : 13749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击安全登录",
+      "time" : {
+        "start" : 1558453472531,
+        "stop" : 1558453473328,
+        "duration" : 797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "acaa604017523297",
+      "name" : "log",
+      "source" : "acaa604017523297.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "93d504cb81c6cbe",
+      "name" : "stdout",
+      "source" : "93d504cb81c6cbe.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d54cc7519d589ded",
+      "name" : "stderr",
+      "source" : "d54cc7519d589ded.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1558453475730,
+      "stop" : 1558453479184,
+      "duration" : 3454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1558453474182,
+      "stop" : 1558453475729,
+      "duration" : 1547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试蛋卷基金登陆功能"
+  }, {
+    "name" : "story",
+    "value" : "测试蛋卷基金密码登录功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebview"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16919-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_xueqiu_webview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pwd",
+    "value" : "'444'"
+  }, {
+    "name" : "usr",
+    "value" : "'333'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "61906aaa2e89805b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1558453332027,
+        "stop" : 1558453332027,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e507fd761e1b098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558452867790,
+        "stop" : 1558452885297,
+        "duration" : 17507
+      }
+    }, {
+      "uid" : "2768a680a3eb78fb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'TestWebview' has no attribute 'wait_element'",
+      "time" : {
+        "start" : 1558452705511,
+        "stop" : 1558452705511,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d49645509d59fa0a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1558365523144,
+        "stop" : 1558365545112,
+        "duration" : 21968
+      }
+    }, {
+      "uid" : "8bb60d2d71bcdd46",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1558365415494,
+        "stop" : 1558365415494,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1158d6b640ae866d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1558365324974,
+        "stop" : 1558365324974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ed5fb519ce54527e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1558364165756,
+        "stop" : 1558364165756,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bae1589d34fd25f1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1558363965032,
+        "stop" : 1558363982845,
+        "duration" : 17813
+      }
+    }, {
+      "uid" : "4ba72ba69b152d7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1558363856808,
+        "stop" : 1558363856808,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "28a49d4a69efd329",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: UiSelector[CLASS=android.widget.TextView, INSTANCE=30]",
+      "time" : {
+        "start" : 1558363714719,
+        "stop" : 1558363714719,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c71ff3e4bdcf7eb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558281270444,
+        "stop" : 1558281288058,
+        "duration" : 17614
+      }
+    }, {
+      "uid" : "3ec6a2c1d01fe1e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558280760791,
+        "stop" : 1558280778834,
+        "duration" : 18043
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9d589b81932e7ae.json",
+  "parameterValues" : [ "'444'", "'333'" ]
+}

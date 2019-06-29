@@ -1,0 +1,138 @@
+{
+  "uid" : "7ab0166e72b3846f",
+  "name" : "验证新建员工成功",
+  "fullName" : "test_staff.TestAddSearch#test_add_staff[staff_info1-test_login0]",
+  "historyId" : "084ca51a7b9ea21a65e80f25c33fb1d4",
+  "time" : {
+    "start" : 1558231062458,
+    "stop" : 1558231063459,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open_browser",
+    "time" : {
+      "start" : 1558231061432,
+      "stop" : 1558231061432,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "test_login",
+    "time" : {
+      "start" : 1558231062456,
+      "stop" : 1558231062457,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b748d53e714df667",
+      "name" : "log",
+      "source" : "b748d53e714df667.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e03791a5ffb9400c",
+      "name" : "stdout",
+      "source" : "e03791a5ffb9400c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d4e8248c85d8e459",
+      "name" : "stderr",
+      "source" : "d4e8248c85d8e459.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试人员新增查询模块"
+  }, {
+    "name" : "story",
+    "value" : "测试新建员工信息用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_staff"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddSearch"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "14544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "staff_info",
+    "value" : "{'name': 'tony', 'sex': 'male', 'age': 35}"
+  }, {
+    "name" : "test_login",
+    "value" : "{'user': 'a1', 'pwd': '123456'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb29be118f9b305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557803810178,
+        "stop" : 1557803811181,
+        "duration" : 1003
+      }
+    }, {
+      "uid" : "f63849f8e493916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557803634678,
+        "stop" : 1557803635679,
+        "duration" : 1001
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ab0166e72b3846f.json",
+  "parameterValues" : [ "{'name': 'tony', 'sex': 'male', 'age': 35}", "{'user': 'a1', 'pwd': '123456'}" ]
+}

@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_xueqiu_webview.TestWebview#test_login[111-222]","19005","测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图"
+"passed","test_xueqiu_webview.TestWebview#test_login[222-333]","16296","测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图"
+"passed","test_xueqiu_webview.TestWebview#test_login[333-444]","17744","测试蛋卷基金密码登录失败并返回到 蛋卷基金 页面，若执行失败则截图"

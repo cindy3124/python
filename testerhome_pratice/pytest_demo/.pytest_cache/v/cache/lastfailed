@@ -1,0 +1,11 @@
+{
+  "test_allure.py": true, 
+  "test_assume.py::test1": true, 
+  "test_ordering.py::test_compare1": true, 
+  "test_parameters.py::test_add1": true, 
+  "test_parameters.py::test_add1[112-3-5]": true, 
+  "test_parameters.py::test_add1[2-3]": true, 
+  "test_parameters.py::test_add2[13]": true, 
+  "test_parameters.py::test_add2[15]": true, 
+  "test_parameters.py::test_add2[17]": true
+}

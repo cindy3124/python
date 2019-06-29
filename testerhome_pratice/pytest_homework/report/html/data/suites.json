@@ -1,0 +1,129 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_staff",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_login_case[test_login0]",
+        "uid" : "b950fed5989d0fb9",
+        "parentUid" : "26aaa67bd733eb126c31689bc4194196",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558231061343,
+          "stop" : 1558231061343,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "{'user': 'a1', 'pwd': 'abc'}" ]
+      }, {
+        "name" : "test_login_case[test_login1]",
+        "uid" : "2f42334b68738996",
+        "parentUid" : "26aaa67bd733eb126c31689bc4194196",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558231061413,
+          "stop" : 1558231061413,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "{'user': 'c1', 'pwd': '123456'}" ]
+      }, {
+        "name" : "test_login_case[test_login2]",
+        "uid" : "c685af9760236c35",
+        "parentUid" : "26aaa67bd733eb126c31689bc4194196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231061428,
+          "stop" : 1558231061428,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'user': 'a1', 'pwd': '123456'}" ]
+      } ],
+      "uid" : "26aaa67bd733eb126c31689bc4194196"
+    }, {
+      "name" : "TestAddSearch",
+      "children" : [ {
+        "name" : "验证查询员工信息正确",
+        "uid" : "e7a3f26bd61db531",
+        "parentUid" : "6f246f872e6045dd1e814b65add18547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231061432,
+          "stop" : 1558231061433,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'user': 'a1', 'pwd': '123456'}" ]
+      }, {
+        "name" : "验证新建员工成功",
+        "uid" : "3f97db85809ffb7b",
+        "parentUid" : "6f246f872e6045dd1e814b65add18547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231061440,
+          "stop" : 1558231062443,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': 'stella', 'sex': 'female', 'age': 20}", "{'user': 'a1', 'pwd': '123456'}" ]
+      }, {
+        "name" : "验证新建员工成功",
+        "uid" : "7ab0166e72b3846f",
+        "parentUid" : "6f246f872e6045dd1e814b65add18547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231062458,
+          "stop" : 1558231063459,
+          "duration" : 1001
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': 'tony', 'sex': 'male', 'age': 35}", "{'user': 'a1', 'pwd': '123456'}" ]
+      }, {
+        "name" : "验证新建员工成功",
+        "uid" : "96b5a290e855c150",
+        "parentUid" : "6f246f872e6045dd1e814b65add18547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231063467,
+          "stop" : 1558231064472,
+          "duration" : 1005
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': 'cindy', 'sex': 'female', 'age': 25}", "{'user': 'a1', 'pwd': '123456'}" ]
+      } ],
+      "uid" : "6f246f872e6045dd1e814b65add18547"
+    }, {
+      "name" : "TestModiDel",
+      "children" : [ {
+        "name" : "验证修改员工成功",
+        "uid" : "3a22702f25f9dc6a",
+        "parentUid" : "a70cb1c328f333dd02da5c0c52409b8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231064478,
+          "stop" : 1558231064478,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证删除员工信息并产生截图",
+        "uid" : "c982616c04fdf2df",
+        "parentUid" : "a70cb1c328f333dd02da5c0c52409b8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558231064481,
+          "stop" : 1558231065181,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a70cb1c328f333dd02da5c0c52409b8d"
+    } ],
+    "uid" : "a926b2f1c774f95fd63c8ee4f9fc70fa"
+  } ]
+}

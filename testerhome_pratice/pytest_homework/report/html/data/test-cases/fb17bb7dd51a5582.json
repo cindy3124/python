@@ -1,0 +1,114 @@
+{
+  "uid" : "fb17bb7dd51a5582",
+  "name" : "验证删除员工信息并产生截图",
+  "fullName" : "test_staff.TestModiDel#test_delete_staff",
+  "historyId" : "5a2a0a46a5b636e8f406b0fd4327c8d6",
+  "time" : {
+    "start" : 1557803636712,
+    "stop" : 1557803637394,
+    "duration" : 682
+  },
+  "description" : "此用例验证删除员工信息是否成功",
+  "descriptionHtml" : "<p>此用例验证删除员工信息是否成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open_browser",
+    "time" : {
+      "start" : 1557803636707,
+      "stop" : 1557803636707,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "此用例验证删除员工信息是否成功",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "15f26680c947776d",
+      "name" : "test_attach_url",
+      "source" : "15f26680c947776d.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "acf74c3bb88dcbb9",
+      "name" : "img_screenshot",
+      "source" : "acf74c3bb88dcbb9.png",
+      "type" : "image/png",
+      "size" : 664850
+    }, {
+      "uid" : "55d4b22615485593",
+      "name" : "log",
+      "source" : "55d4b22615485593.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4e9e3cd56d640a1c",
+      "name" : "stdout",
+      "source" : "4e9e3cd56d640a1c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "dec2de41725979da",
+      "name" : "stderr",
+      "source" : "dec2de41725979da.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试删除员工信息用例"
+  }, {
+    "name" : "feature",
+    "value" : "测试人员修改删除模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_staff"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestModiDel"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1817-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb17bb7dd51a5582.json",
+  "parameterValues" : [ ]
+}

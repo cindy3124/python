@@ -1,0 +1,120 @@
+{
+  "uid" : "797c1713bc296806",
+  "name" : "test_login_case[test_login1]",
+  "fullName" : "test_staff.TestLogin#test_login_case[test_login1]",
+  "historyId" : "c4db8a0a8a5c321c5016a461b0b659d0",
+  "time" : {
+    "start" : 1557803633638,
+    "stop" : 1557803633638,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "request = <SubRequest 'test_login' for <Function test_login_case[test_login1]>>\n\n    @pytest.fixture()\n    def test_login(request):\n        user = request.param['user']\n        pwd = request.param['pwd']\n        print('登录中...')\n        if user == 'a1' and pwd == '123456':\n            print('登录页面成功...')\n            assert True\n            return '登录页面成功...'\n        else:\n            print('用户名或密码错误，请重新检查...')\n>           assert False\nE           assert False\n\nconftest.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_login",
+    "time" : {
+      "start" : 1557803633638,
+      "stop" : 1557803633638,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/fixtures.py\", line 937, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/fixtures.py\", line 794, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/scipt/python/testerhome_pratice/pytest_homework/conftest.py\", line 21, in test_login\n    assert False\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "open_browser",
+    "time" : {
+      "start" : 1557803633583,
+      "stop" : 1557803633583,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "request = <SubRequest 'test_login' for <Function test_login_case[test_login1]>>\n\n    @pytest.fixture()\n    def test_login(request):\n        user = request.param['user']\n        pwd = request.param['pwd']\n        print('登录中...')\n        if user == 'a1' and pwd == '123456':\n            print('登录页面成功...')\n            assert True\n            return '登录页面成功...'\n        else:\n            print('用户名或密码错误，请重新检查...')\n>           assert False\nE           assert False\n\nconftest.py:21: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dfcc6ec6a21be1c2",
+      "name" : "log",
+      "source" : "dfcc6ec6a21be1c2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "216d71ab5bfdbe80",
+      "name" : "stdout",
+      "source" : "216d71ab5bfdbe80.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "dbe95323d378982f",
+      "name" : "stderr",
+      "source" : "dbe95323d378982f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_staff"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "1deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1817-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_login",
+    "value" : "{'user': 'c1', 'pwd': '123456'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "797c1713bc296806.json",
+  "parameterValues" : [ "{'user': 'c1', 'pwd': '123456'}" ]
+}

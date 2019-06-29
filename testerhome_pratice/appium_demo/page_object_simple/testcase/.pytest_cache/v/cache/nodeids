@@ -1,0 +1,4 @@
+[
+  "test_selected.py::TestSelected::test_price",
+  "test_selected.py::TestSelected::test_add_stock"
+]

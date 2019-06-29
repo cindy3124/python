@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","pytest_practice.test_bubble#test_bubble[list11-y1]","0",""
+"passed","pytest_demo.test_allure.TestLogin#test_2474608","4005","
+        【用例描述】用例1测试登录成功的场景
+        "
+"failed","pytest_practice.test_bubble#test_bubble[list10-y0]","57",""

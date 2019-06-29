@@ -1,0 +1,49 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试蛋卷基金登陆功能",
+    "children" : [ {
+      "name" : "测试蛋卷基金密码登录功能",
+      "children" : [ {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "5cf88445ab68bdaa",
+        "parentUid" : "8d4aab6835cfb67bd7c22a8f22aa4f30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453416178,
+          "stop" : 1558453435183,
+          "duration" : 19005
+        },
+        "flaky" : true,
+        "parameters" : [ "'222'", "'111'" ]
+      }, {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "404ed51dafcd568b",
+        "parentUid" : "8d4aab6835cfb67bd7c22a8f22aa4f30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453437732,
+          "stop" : 1558453454028,
+          "duration" : 16296
+        },
+        "flaky" : true,
+        "parameters" : [ "'333'", "'222'" ]
+      }, {
+        "name" : "此用例测试蛋卷基金密码登录功能",
+        "uid" : "b9d589b81932e7ae",
+        "parentUid" : "8d4aab6835cfb67bd7c22a8f22aa4f30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1558453456436,
+          "stop" : 1558453474180,
+          "duration" : 17744
+        },
+        "flaky" : true,
+        "parameters" : [ "'444'", "'333'" ]
+      } ],
+      "uid" : "8d4aab6835cfb67bd7c22a8f22aa4f30"
+    } ],
+    "uid" : "8c9230e5f5200e55af26a201ce91ee8b"
+  } ]
+}

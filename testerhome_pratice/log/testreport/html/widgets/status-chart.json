@@ -1,0 +1,31 @@
+[ {
+  "uid" : "71ec58b58cb2655",
+  "name" : "test_bubble[list11-y1]",
+  "time" : {
+    "start" : 1556957952726,
+    "stop" : 1556957952726,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54c1c9242348a30c",
+  "name" : "test_2474608",
+  "time" : {
+    "start" : 1556956747450,
+    "stop" : 1556956751455,
+    "duration" : 4005
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8b738562a812c76d",
+  "name" : "test_bubble[list10-y0]",
+  "time" : {
+    "start" : 1556957952663,
+    "stop" : 1556957952720,
+    "duration" : 57
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
